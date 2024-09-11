@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "start": "node ./src/server.js",
     "predeploy" : "npm run build",
     "deploy" : "gh-pages -d build",
     "build": "tsc -b && vite build",
